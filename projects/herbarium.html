@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <!-- vvv PROJECTS & INDEXES boiler plate ------------------ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincent Wolfe | Textile Herbarium</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/master.css">
+    <script src="../js/sidebar.js"></script>
+    <!-- ^^^ PROJECTS & INDEXES boiler plate ------------------ -->
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar" id="sidebar">
+            <sidebar-component></sidebar-component>
+        </div>
+
+        <div class="main">
+            <div class="page_title" id="page_title">
+                Textile Herbarium
+            </div>
+            
+            <div class="player_container" id="player_container">
+                <img src="../img/herbarium/header.jpg" class="main_img" id="main_img"/>
+            </div>
+  
+            <div class="main_description">
+                <p>
+                These plants are generated as L-systems using
+                <a href="https://processing.org/">Processing</a> /
+                <a href="https://github.com/CreativeInquiry/PEmbroider">PEmbroider</a>, and are then printed as freestanding lace on a digital emboidery machine.
+                The loving 
+                <a href="https://carnegiemnh.org/research/botany-5/">descriptions that botanists write</a> about real plants inspired me to begin writing poems in the labels.
+                These are occasionally for sale, and only on pause while I look for a next step for the project.
+                <p><br>
+                <figure style="max-width: 1400px;">
+                    <img src="../img/herbarium/all.jpg" class="description_img"/>
+                </figure>
+                <br>
+                <figure style="font-size: 18px;font-weight: bold; text-transform: uppercase;">
+                    Specimine labels for the above image<br> in the same layout and easier font :</figure>
+
+                <figure style="max-width: 900px;">
+                    <img src="../img/herbarium/tag_00.jpg" class="description_img"/>
+                </figure>
+                <figure style="max-width: 900px;">
+                    <img src="../img/herbarium/tag_01.jpg" class="description_img"/>
+                </figure>
+                <figure style="max-width: 900px;">
+                    <img src="../img/herbarium/tag_02.jpg" class="description_img"/>
+                </figure>
+
+                <p><br>
+                    <figure style="font-size: 18px;font-weight: bold; text-transform: uppercase;">
+                    Specimines from the initial collection :</figure>
+                <figure style="max-width: 1200px;">
+                    <img src="../img/herbarium/initial.jpg" class="description_img"/>
+                </figure>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <script>
+        var debug_color = false;
+        var player_container_max_width = 1200;
+        var player_container_min_width = 250;
+        var ratio_width = 8;
+        var ratio_height = 3;
+    </script>
+    <script src="../js/player_container_constructor.js"></script>
+</body>
+</html>
+
+
+

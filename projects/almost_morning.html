@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <!-- vvv PROJECTS & INDEXES boiler plate ------------------ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincent Wolfe | It Is Almost Morning</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/master.css">
+    <script src="../js/sidebar.js"></script>
+    <!-- ^^^ PROJECTS & INDEXES boiler plate ------------------ -->
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar" id="sidebar">
+            <sidebar-component></sidebar-component>
+        </div>
+
+        <div class="main">
+            <div class="page_title" id="page_title">
+                It is Almost Morning
+            </div>
+
+            <div class="player_container" id="player_container">
+                <iframe class="main_img" id="main_img"
+                    src="https://www.youtube.com/embed/-lFTtnOcT0w?si=5Ib_Ei3TcD6anQqi" 
+                    title="YouTube video player" frameborder="0"  
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <div class="main_description">
+                Completed in 2025.
+                <p>
+                The video follows a patch of sunlight traversing an empty home. 
+                The walls are painted white so the changing light is the only source of color,
+                and the audio is visual-reactive so the light is the only source of sound.
+                <p>
+                I plan to continue this project once I have access to a video camera again, and will seek out 
+                new architecture for the light to traverse. 
+                Continuing this project means asks the question <i>"what is architecture for sunbeams?"</i>
+
+                <p><br>
+                Process <br>
+                First, banks of film were shot with the processing that would later be done to them in mind.
+                Then the videos were spliced together, and taken into TouchDesigner.
+                There, a script calculates how present colors cyan, magenta, yellow, black, and white are in each frame. 
+                This "presence" value for each color maps to the gain and left-right pan of a corresponding audio track.
+                The tracks are synthetic instruments created in Ableton Live, 
+                which is communicating with TouchDesigner in real time via TDAbleton.
+                The pan and gain were recorded to the tracks, then manually recomposed and polished for the final result.
+                <p>
+                <a href="https://youtu.be/hu700sjYW3M?si=9Y2X2jEg8Jkt4LDL">This patch</a>
+                leaves room for live manipulation and performance.
+                It was installed as a single channel looping video projection for a group show at Artists Image Resource in July '25.
+
+                
+            </div>
+        </div>
+    </div>
+    <script>
+        var debug_color = false;
+        var player_container_max_width = 1200;
+        var player_container_min_width = 250;
+        var ratio_width = 16;
+        var ratio_height = 9;
+    </script>
+    <script src="../js/player_container_constructor.js"></script>
+</body>
+</html>
+
+
+

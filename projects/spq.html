@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <!-- vvv PROJECTS & INDEXES boiler plate ------------------ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincent Wolfe | SPQ</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/master.css">
+    <script src="../js/sidebar.js"></script>
+    <!-- ^^^ PROJECTS & INDEXES boiler plate ------------------ -->
+    <!-- vvv BOOKS boiler plate ------------------ -->
+    <link rel="stylesheet" type="text/css" href="../css/navbar.css">
+    <!-- ^^^ BOOKS boiler plate ------------------ -->
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar" id="sidebar">
+            <sidebar-component></sidebar-component>
+        </div>
+
+        <div class="main">
+            <div class="page_title" id="page_title">
+                Personal Revisions to the Schizotypal Personality Questionnaire
+            </div>
+
+            <div class="player_container" id="player_container">
+                <img src="../img/zines/spq_00.jpg" class="main_img" id="main_img"/>
+            </div>
+
+            <div class="navbar" id="navbar"></div>
+            
+            <div class="main_description">
+                Work from 2023.<br>
+                Scans and digital collage, with the text coming primarily
+                from the body of notes I took during my 2021-22' school year at Cooper Union.
+                This project attempts to pull a narrative that's a little more surreal
+                and a little less troubling from that rambling.
+
+            </div>
+            
+            <figure>
+                <img src="../img/zines/grids.jpg" class="description_img"/>
+                <figcaption>A potential eiplogue.</figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <script>
+        var debug_color = false;
+        var player_container_max_width = 1000;
+        var player_container_min_width = 250;
+        var ratio_width = 2;
+        var ratio_height = 1;
+
+        var json_file = "../json/spq.json";
+        var image_folder = "../img/zines/";
+    </script>
+    <script src="../js/player_container_constructor.js"></script>
+    <script src="../js/book.js"></script>
+
+</body>
+</html>

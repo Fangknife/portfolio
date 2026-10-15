@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <!-- vvv PROJECTS & INDEXES boiler plate ------------------ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincent Wolfe | Absolutley Nothing</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/master.css">
+    <script src="../js/sidebar.js"></script>
+    <!-- ^^^ PROJECTS & INDEXES boiler plate ------------------ -->
+    <!-- vvv BOOKS boiler plate ------------------ -->
+    <link rel="stylesheet" type="text/css" href="../css/navbar.css">
+    <!-- ^^^ BOOKS boiler plate ------------------ -->
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar" id="sidebar">
+            <sidebar-component></sidebar-component>
+        </div>
+
+        <div class="main">
+            <div class="page_title" id="page_title">
+                Absolutley Nothing
+            </div>
+
+            <div class="player_container" id="player_container">
+                <img src="../img/zines/abs_00.jpg" class="main_img" id="main_img"/>
+            </div>
+
+            <div class="navbar" id="navbar"></div>
+            
+            <div class="main_description">
+                Completed in 2020. <br>
+                Collection of sketchbook work from highschool.
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var debug_color = false;
+        var player_container_max_width = 1000;
+        var player_container_min_width = 250;
+        var ratio_width = 5;
+        var ratio_height = 3;
+
+        var json_file = "../json/absolutley_nothing.json";
+        var image_folder = "../img/zines/";
+    </script>
+    <script src="../js/player_container_constructor.js"></script>
+    <script src="../js/book.js"></script>
+
+</body>
+</html>

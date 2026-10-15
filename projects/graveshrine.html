@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <!-- vvv PROJECTS & INDEXES boiler plate ------------------ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincent Wolfe | The GraveShrine</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/master.css">
+    <script src="../js/sidebar.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/navbar.css">
+    <!-- ^^^ PROJECTS & INDEXES boiler plate ------------------ -->
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar" id="sidebar">
+            <sidebar-component></sidebar-component>
+        </div>
+
+        <div class="main">
+            <div class="page_title" id="page_title">
+                The GraveShrine
+            </div>
+
+            <div class="player_container" id="player_container">
+                <iframe class="main_img" id="main_img"
+                    src="https://www.youtube.com/embed/DQzpp5uooAU?si=gSWTnttM4_LlN9bj" 
+                    title="YouTube video player" frameborder="0"  
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <div class="navbar" class="navbar">
+                <div class="arrow_container">
+                    <a href="#" class="arrow_left" id="arrow_left" onclick="left_arrow(this)"></a>
+                </div>
+                <div class="navtext">
+                    Documentation | In-Browser Game
+                </div>
+                <div class="arrow_container">
+                    <a href="#" class="arrow_right" id="arrow_right" onclick="right_arrow()"></a>
+                </div>
+            </div>
+            <div class="main_description">
+                Completed in 2023. Modeled in Unity and Blender.
+                <p>
+                The GraveShrine serves as an artificial burial for a person I used to be. <br> 
+                Everything displayed was collected in a past life. <br>
+                I wanted a place to lay him to rest. <br>
+                In the secrecy of a bedroom, <br>
+                the vivid scraps become the daydream inside of someone's head projected onto the artificial walls.
+                <p><br>
+                
+                <figure>
+                    <img src="../img/graveshrine/gs1.jpg" class="description_img"/> 
+                </figure>
+                <figure>
+                    <img src="../img/graveshrine/gs2.jpg" class="description_img"/> 
+                    <figcaption>Screenshots from inside of the digital model.</figcaption>
+                </figure>
+            </div>
+            <script>
+                document.addEventListener("DOMContentLoaded", (event) => {
+                    left_arrow();
+                });
+                function right_arrow() {
+                    document.getElementById("main_img").src="https://itch.io/embed-upload/7420204?color=333333";
+                    document.getElementById("arrow_right").style.pointerEvents = "none";
+                    document.getElementById("arrow_right").style.backgroundColor = "#ffffff10";
+                    document.getElementById("arrow_left").style.pointerEvents = "all";
+                    document.getElementById("arrow_left").style.backgroundColor = "var(--text_color)";
+                }
+                function left_arrow() {
+                    document.getElementById("main_img").src="https://www.youtube.com/embed/DQzpp5uooAU?si=gSWTnttM4_LlN9bj";
+                    document.getElementById("arrow_left").style.pointerEvents = "none";
+                    document.getElementById("arrow_left").style.backgroundColor = "#ffffff10";
+                    document.getElementById("arrow_right").style.pointerEvents = "all";
+                    document.getElementById("arrow_right").style.backgroundColor = "var(--text_color)";
+                }
+            </script>
+        </div>
+    </div>
+    <script>
+        var debug_color = false;
+        var player_container_max_width = 1200;
+        var player_container_min_width = 250;
+        var ratio_width = 16;
+        var ratio_height = 9;
+    </script>
+    <script src="../js/player_container_constructor.js"></script>
+</body>
+</html>
+
+
+

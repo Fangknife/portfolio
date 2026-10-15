@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <!-- vvv PROJECTS & INDEXES boiler plate ------------------ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincent Wolfe | At The End Of Time</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/master.css">
+    <script src="../js/sidebar.js"></script>
+    <!-- ^^^ PROJECTS & INDEXES boiler plate ------------------ -->
+    <!-- vvv BOOKS boiler plate ------------------ -->
+    <link rel="stylesheet" type="text/css" href="../css/navbar.css">
+    <!-- ^^^ BOOKS boiler plate ------------------ -->
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar" id="sidebar">
+            <sidebar-component></sidebar-component>
+        </div>
+
+        <div class="main">
+            <div class="page_title" id="page_title">
+                At the End of Time
+            </div>
+
+            <div class="player_container" id="player_container">
+                <img src="../img/end_of_time/0.jpg" class="main_img" id="main_img"/>
+            </div>
+
+            <div class="navbar" id="navbar"></div>
+            
+            <div class="main_description">
+                Completed in 2025-26. <br>
+                This is the digital version of a one-off photobook, originally printed at a 6" x 6" page size.
+                <p>
+                This book depicts another world or somewhere else within this one.
+                The patches of sunlight are substanceless
+                but are the only form of being within true emptiness.
+                Nothing moves but the sun sets slowly.
+                <p><br>
+
+                <figure>
+                    <img src="../img/end_of_time/doc/doc7.jpg" class="description_img"/>
+                    <figcaption>The "clean" version, ordered from Blurb.com.</figcaption>
+                </figure>
+                <figure>
+                    <img src="../img/end_of_time/doc/doc6.jpg" class="description_img"/>
+                    <figcaption>The version I printed and bound myself. It has matte paper and richer color, but the imperfections show more.</figcaption>
+                </figure>
+                <figure>
+                    <img src="../img/end_of_time/doc/doc5.jpg" class="description_img"/>
+                    <figcaption>Three handmade 3.5" x 3.5" studies testing different plots and design languages.</figcaption>
+                </figure>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var debug_color = false;
+        var player_container_max_width = 1200;;
+        var player_container_min_width = 250;
+        var ratio_width = 2;
+        var ratio_height = 1;
+
+        var json_file = "../json/end_of_time.json";
+        var image_folder = "../img/end_of_time/";
+    </script>
+    <script src="../js/player_container_constructor.js"></script>
+    <script src="../js/book.js"></script>
+
+</body>
+</html>
