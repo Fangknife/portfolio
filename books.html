@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincent Wolfe | Books</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/master.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="js/sidebar.js"></script>
+</head>
+<body>
+    
+    <div class="container"> <!--holding sidebar and main together...-->
+        
+        <div class="sidebar" id="sidebar">
+            <sidebar-component></sidebar-component>
+        </div>
+        
+        <div class="main">
+
+            <div class="page_title">
+                Books, Zines, and Webcomics
+            </div>
+
+            <div class="portfolio_grid">
+                <div class="grid_img_container">
+                    <a href="projects/house_inside_out.html">
+                        <img src="img/thumbnails/house_inside_out.jpg" class="grid_img">
+                    <a href="projects/house_inside_out.html" class="grid_img_title">
+                        House Inside Out
+                    </a>
+                </div>
+                <div class="grid_img_container">
+                    <a href="projects/end_of_time.html">
+                        <img src="img/thumbnails/end_of_time.jpg" class="grid_img"/>
+                    </a>
+                    <a href="projects/end_of_time.html" class="grid_img_title">
+                        At the End of Time
+                    </a>
+                </div>
+                <div class="grid_img_container in_progress">
+                    <a href="projects/tracery.html">
+                        <img src="img/thumbnails/tracery.jpg" class="grid_img">
+                    <a href="projects/tracery.html" class="grid_img_title">
+                        Tracery
+                    </a>
+                </div>
+                <div class="grid_img_container">
+                    <a href="projects/spq.html">
+                        <img src="img/thumbnails/spq.jpg" class="grid_img">
+                    <a href="projects/spq.html" class="grid_img_title">
+                        Revisions to the SPQ
+                    </a>
+                </div>
+                <div class="grid_img_container">
+                    <a href="projects/pregnant_dogs.html">
+                        <img src="img/thumbnails/pregnant_dogs.jpg" class="grid_img">
+                    <a href="projects/pregnant_dogs.html" class="grid_img_title">
+                        Pregnant Dog Howls at the Moon
+                    </a>
+                </div>
+                <div class="grid_img_container">
+                    <a href="projects/absolutley_nothing.html">
+                        <img src="img/thumbnails/absolutley_nothing.jpg" class="grid_img"/>
+                    </a>
+                    <a href="projects/absolutley_nothing.html" class="grid_img_title">
+                        Absolutley Nothing
+                    </a>
+                </div>
+
+                <div class="grid_img_container">
+                    <a href="projects/light_pollution.html">
+                        <img src="img/thumbnails/light_pollution.jpg" class="grid_img">
+                    <a href="projects/light_pollution.html" class="grid_img_title">
+                        Light Pollution
+                    </a>
+                </div>
+
+                <div class="grid_img_container">
+                    <a href="projects/off_whites.html">
+                        <img src="img/thumbnails/off_whites.jpg" class="grid_img">
+                    <a href="projects/off_whites.html" class="grid_img_title">
+                        Off Whites
+                    </a>
+                </div>
+
+                <!-- Hover and WIP -->
+                <script> 
+                    document.querySelectorAll('.grid_img').forEach(function(image) {
+                        image.addEventListener('mouseover', function() {
+                            var title = image.closest(".grid_img_container").getElementsByClassName("grid_img_title")[0];
+                            title.classList.add('text_hover');
+                        });
+                        image.addEventListener('mouseout', function() {
+                            var title = image.closest(".grid_img_container").getElementsByClassName("grid_img_title")[0];
+                            title.classList.remove('text_hover');
+                        });
+                    });
+
+                    document.querySelectorAll('.in_progress').forEach(function(image) {
+                        const in_progress_div = document.createElement("div");
+                        in_progress_div.classList.add("in_progress_popup");
+                        in_progress_div.innerHTML = "Work In Progress";
+                        image.appendChild(in_progress_div);
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

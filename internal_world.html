@@ -1,0 +1,158 @@
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincent Wolfe | Internal World </title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/master.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="js/sidebar.js"></script>
+</head>
+<style>
+    @media only screen and (min-width: 1300px) {
+        #portfolio_grid {
+            grid-template-columns: auto auto auto auto;
+        }
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="sidebar" id="sidebar">
+            <sidebar-component></sidebar-component>
+        </div>
+        
+        <div class="main">
+            <div class="page_title">
+                The Internal World
+            </div>
+
+            <div class="index_description">
+                <span class="avoidwrap">These are works which come from another world, or an internal one. </span>
+                <span class="avoidwrap">The world is not a dreamscape because of it's tactility. </span>
+                <span class="avoidwrap">The only sensation of emotion is beauty.</span>
+            </div>
+
+            <div class="portfolio_grid" id="portfolio_grid">
+                <div class="grid_img_container in_progress">
+                    <a href="projects/tracery.html">
+                        <img src="img/thumbnails/tracery.jpg" class="grid_img"/>
+                    </a>
+                    <a href="projects/tracery.html" class="grid_img_title">
+                        Tracery
+                    </a>
+                </div>
+                <div class="grid_img_container">
+                    <a href="projects/herbarium.html">
+                        <img src="img/thumbnails/herbarium.jpg" class="grid_img"/>
+                    <a href="projects/herbarium.html" class="grid_img_title">
+                        Textile Herbarium
+                    </a>
+                </div>
+                <div class="grid_img_container">
+                    <a href="projects/public_animation.html">
+                        <img src="img/thumbnails/public_animation.jpg" class="grid_img"/>
+                    </a>
+                    <a href="projects/public_animation.html" class="grid_img_title">
+                        Public Animation
+                    </a>
+                </div>
+                <div class="grid_img_container in_progress">
+                    <a href="projects/emb_animation.html">
+                        <img src="img/thumbnails/emb_animation.jpg" class="grid_img"/>
+                    </a>
+                    <a href="projects/emb_animation.html" class="grid_img_title">
+                        Embroidery animation
+                    </a>
+                </div>
+                <div class="grid_img_container in_progress">
+                    <a href="projects/envelope.html">
+                        <img src="img/thumbnails/envelope.jpg" class="grid_img"/>
+                    </a>
+                    <a href="projects/envelope.html" class="grid_img_title">
+                        Textile envelope
+                    </a>
+                </div>
+
+                <div class="grid_img_container in_progress">
+                    <a href="projects/roadtrip.html">
+                        <img src="img/thumbnails/roadtrip.jpg" class="grid_img"/>
+                    </a>
+                    <a href="projects/roadtrip.html" class="grid_img_title">
+                        Roadtrip maps
+                    </a>
+                </div>
+                <div class="grid_img_container in_progress">
+                    <a href="projects/visual_midi.html">
+                        <img src="img/thumbnails/visual_midi.jpg" class="grid_img"/>
+                    </a>
+                    <a href="projects/visual_midi.html" class="grid_img_title">
+                        Visual Midi
+                    </a>
+                </div>
+                <div class="grid_img_container in_progress">
+                    <a href="projects/night_driving.html">
+                        <img src="img/thumbnails/night_driving.jpg" class="grid_img"/>
+                    </a>
+                    <a href="projects/night_driving.html" class="grid_img_title">
+                        Night Driving
+                    </a>
+                </div>
+
+                <div class="grid_img_container in_progress">
+                    <a href="projects/night_houses.html">
+                        <img src="img/thumbnails/night_houses.jpg" class="grid_img"/>
+                    </a>
+                    <a href="projects/night_houses.html" class="grid_img_title">
+                        Night Houses
+                    </a>
+                </div>
+                <div class="grid_img_container in_progress">
+                    <a href="projects/misery.html">
+                        <img src="img/thumbnails/misery.jpg" class="grid_img"/>
+                    </a>
+                    <a href="projects/misery.html" class="grid_img_title">
+                        Misery
+                    </a>
+                </div>
+                <div class="grid_img_container">
+                    <a href="projects/house_inside_out.html">
+                        <img src="img/thumbnails/house_inside_out.jpg" class="grid_img"/>
+                    </a>
+                    <a href="projects/house_inside_out.html" class="grid_img_title">
+                        House Inside Out
+                    </a>
+                </div>
+                <div class="grid_img_container in_progress">
+                    <a href="projects/sleep_charts.html">
+                        <img src="img/thumbnails/sleep_charts.jpg" class="grid_img"/>
+                    </a>
+                    <a href="projects/sleep_charts.html" class="grid_img_title">
+                        Sleep Charts
+                    </a>
+                </div>
+
+                <!-- Hover and WIP -->
+                <script> 
+                    document.querySelectorAll('.grid_img').forEach(function(image) {
+                        image.addEventListener('mouseover', function() {
+                            var title = image.closest(".grid_img_container").getElementsByClassName("grid_img_title")[0];
+                            title.classList.add('text_hover');
+                        });
+                        image.addEventListener('mouseout', function() {
+                            var title = image.closest(".grid_img_container").getElementsByClassName("grid_img_title")[0];
+                            title.classList.remove('text_hover');
+                        });
+                    });
+
+                    document.querySelectorAll('.in_progress').forEach(function(image) {
+                        const in_progress_div = document.createElement("div");
+                        in_progress_div.classList.add("in_progress_popup");
+                        in_progress_div.innerHTML = "Work In Progress";
+                        image.appendChild(in_progress_div);
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
