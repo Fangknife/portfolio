@@ -43,7 +43,7 @@ sidebarTemplate.innerHTML = `
     </style>
    
     <h1>Vincent Wolfe</h1>
-    <img src="../img/portrait.jpg" class="sidebar_img"/>
+    <img src="./img/portrait.jpg" class="sidebar_img"/>
     <div class="sidebar_links">
         <a href="../about.html">About</a>
         <a href="../contact.html">Contact</a>
@@ -55,7 +55,6 @@ sidebarTemplate.innerHTML = `
         <a href="../clothing.html">Textile / For Sale</a>
         <a href="../books.html">Books</a>
         
-
 `;
 
 class Sidebar extends HTMLElement {
