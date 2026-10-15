@@ -51,9 +51,9 @@ sidebarTemplate.innerHTML = `
         
         <span style="font-weight: bold; text-transform: uppercase;">Portfolios </span>
         <a href="/portfolio/index.html">The Eternal Now</a>
-        <a href="/portfolio/internal_world.html">The Internal World</a>
-        <a href="/portfolio/clothing.html">Textile / For Sale</a>
-        <a href="/portfolio/books.html">Books</a>
+        <a href="./portfolio/internal_world.html">The Internal World</a>
+        <a href="../portfolio/clothing.html">Textile / For Sale</a>
+        <a href="/books.html">Books</a>
         
 `;
 
