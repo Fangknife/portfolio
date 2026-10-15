@@ -1,0 +1,93 @@
+
+@media only screen and (min-width: 1400px) {
+    .portfolio_grid {
+        grid-template-columns: auto auto auto;
+    }
+}
+@media only screen and (max-width: 1400px) and (min-width: 700px) {
+    .portfolio_grid {
+        grid-template-columns: auto auto;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .portfolio_grid {
+        grid-template-columns: auto;
+    }
+}
+
+.portfolio_grid {
+    display: grid;
+    align-content: start;
+    padding: 2vw;
+    padding-top: 0px;
+    column-gap: 2vw;
+    row-gap: 2vw;
+}
+.grid_img_container {
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    vertical-align: middle;
+    position:relative;
+}
+a:not(.grid_img_title) {
+    display: block;
+    width: 100%;
+    height: 94%;
+    overflow: hidden;
+}
+.grid_img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+a.grid_img_title {
+    padding-top: 2px;
+    margin: auto auto;
+    width: fit-content; 
+}
+.in_progress_popup {
+    z-index: 10;
+    background-color: #191818c0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .2s ease;
+    opacity: 0;
+}
+.grid_img_container:hover .in_progress_popup {
+    opacity: 1;
+}
+
+@media only screen and (min-width: 1300px) {
+    .grid_img_title { font-size: 22px; }
+    .in_progress_popup { font-size: 28px; }
+    span.avoidwrap { display:inline-block; }
+}
+@media only screen and (min-width: 900px)and (max-width: 1300px){
+    .grid_img_title { font-size: 18px; }
+    span.avoidwrap { display:inline-block; }
+}
+@media only screen and (max-width: 900px) {
+    .grid_img_title { font-size: 14px; }
+    span.avoidwrap { display:inline; }
+}
+.index_description {
+    
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    line-height: 140%;
+    padding-bottom: 25px;
+    /* background-color: #00218d46; */
+}
