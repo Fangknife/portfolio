@@ -45,14 +45,14 @@ sidebarTemplate.innerHTML = `
     <h1>Vincent Wolfe</h1>
     <img src="/portfolio/img/portrait.jpg" class="sidebar_img"/>
     <div class="sidebar_links">
-        <a href="../about.html">About</a>
-        <a href="../contact.html">Contact</a>
-        <a href="../cv.html">CV</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/cv.html">CV</a>
         
         <span style="font-weight: bold; text-transform: uppercase;">Portfolios </span>
         <a href="/portfolio/index.html">The Eternal Now</a>
-        <a href="./portfolio/internal_world.html">The Internal World</a>
-        <a href="../portfolio/clothing.html">Textile / For Sale</a>
+        <a href="/portfolio/internal_world.html">The Internal World</a>
+        <a href="/portfolio/clothing.html">Textile / For Sale</a>
         <a href="/books.html">Books</a>
         
 `;
