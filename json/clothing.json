@@ -1,0 +1,524 @@
+[
+    {
+        "folder": "16",
+        "imageCount": 12,
+        "sold": false,
+        "price": 150,
+        "size": "ANY",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "1",
+        "imageCount": 9,
+        "sold": false,
+        "price": 200,
+        "size": "L/XL",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "2",
+        "imageCount": 13,
+        "sold": false,
+        "price": 200,
+        "size": "XL",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "6",
+        "imageCount": 7,
+        "sold": false,
+        "price": 130,
+        "size": "L",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "0",
+        "imageCount": 10,
+        "sold": false,
+        "price": 70,
+        "size": "S",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "5",
+        "imageCount": 8,
+        "sold": false,
+        "price": 70,
+        "size": "M",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "3",
+        "imageCount": 7,
+        "sold": false,
+        "price": 80,
+        "size": "M",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "4",
+        "imageCount": 7,
+        "sold": false,
+        "price": 45,
+        "size": "M/L",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "8",
+        "imageCount": 10,
+        "sold": false,
+        "price": 110,
+        "size": "XL",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "9",
+        "imageCount": 9,
+        "sold": false,
+        "price": 95,
+        "size": "L",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "10",
+        "imageCount": 12,
+        "sold": false,
+        "price": 135,
+        "size": "XS",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "11",
+        "imageCount": 10,
+        "sold": false,
+        "price": 85,
+        "size": "M/S",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "7",
+        "imageCount": 8,
+        "sold": false,
+        "price": 55,
+        "size": "M",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "14",
+        "imageCount": 7,
+        "sold": false,
+        "price": 65,
+        "size": "M/L",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "12",
+        "imageCount": 9,
+        "sold": false,
+        "price": 65,
+        "size": "L",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "29",
+        "imageCount": 7,
+        "sold": false,
+        "price": 50,
+        "size": "L",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "15",
+        "imageCount": 9,
+        "sold": false,
+        "price": 50,
+        "size": "M/L",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "27",
+        "imageCount": 7,
+        "sold": false,
+        "price": 40,
+        "size": "XS",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "30",
+        "imageCount": 6,
+        "sold": false,
+        "price": 40,
+        "size": "L",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "28",
+        "imageCount": 5,
+        "sold": false,
+        "price": 30,
+        "size": "L",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "26",
+        "imageCount": 8,
+        "sold": false,
+        "price": 70,
+        "size": "S",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "25",
+        "imageCount": 6,
+        "sold": false,
+        "price": 50,
+        "size": "L",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "22",
+        "imageCount": 7,
+        "sold": false,
+        "price": 50,
+        "size": "M",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "13",
+        "imageCount": 6,
+        "sold": false,
+        "price": 35,
+        "size": "S/M",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "23",
+        "imageCount": 2,
+        "sold": false,
+        "price": 20,
+        "size": "S",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "24",
+        "imageCount": 4,
+        "sold": false,
+        "price": 35,
+        "size": "XS",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "17",
+        "imageCount": 4,
+        "sold": false,
+        "price": 35,
+        "size": "L",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "18",
+        "imageCount": 6,
+        "sold": false,
+        "price": 35,
+        "size": "M",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "19",
+        "imageCount": 4,
+        "sold": false,
+        "price": 20,
+        "size": "S",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "20",
+        "imageCount": 5,
+        "sold": false,
+        "price": 35,
+        "size": "S",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "21",
+        "imageCount": 5,
+        "sold": false,
+        "price": 30,
+        "size": "M/S",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "32",
+        "imageCount": 8,
+        "sold": true,
+        "price": "",
+        "size": "XL",
+        "title": "Cicadia Friends Sweater",
+        "description": ""
+    },
+    {
+        "folder": "37",
+        "imageCount": 8,
+        "sold": false,
+        "price": "140",
+        "size": "L/M",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "42",
+        "imageCount": 7,
+        "sold": false,
+        "price": "80",
+        "size": "M",
+        "title": "Soft Gallery Shirt",
+        "description": ""
+    },
+    {
+        "folder": "41",
+        "imageCount": 7,
+        "sold": false,
+        "price": "190",
+        "size": "L",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "36",
+        "imageCount": 9,
+        "sold": true,
+        "price": "100",
+        "size": "S/M",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "35",
+        "imageCount": 7,
+        "sold": true,
+        "price": "",
+        "size": "M",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "31",
+        "imageCount": 6,
+        "sold": false,
+        "price": "NFS",
+        "size": "S",
+        "title": "Student Driver Sweater",
+        "description": ""
+    },
+    {
+        "folder": "33",
+        "imageCount": 5,
+        "sold": false,
+        "price": 90,
+        "size": "XL",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "34",
+        "imageCount": 5,
+        "sold": true,
+        "price": "",
+        "size": "S",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "39",
+        "imageCount": 5,
+        "sold": false,
+        "price": "50",
+        "size": "M/L",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "40",
+        "imageCount": 5,
+        "sold": true,
+        "price": "50",
+        "size": "M",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "38",
+        "imageCount": 5,
+        "sold": true,
+        "price": "30",
+        "size": "",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "57",
+        "imageCount": 3,
+        "sold": true,
+        "price": "80",
+        "size": "",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "51",
+        "imageCount": 4,
+        "sold": true,
+        "price": "55",
+        "size": "",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "52",
+        "imageCount": 5,
+        "sold": true,
+        "price": "",
+        "size": "",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "55",
+        "imageCount": 3,
+        "sold": true,
+        "price": "",
+        "size": "",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "54",
+        "imageCount": 4,
+        "sold": true,
+        "price": "",
+        "size": "",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "53",
+        "imageCount": 2,
+        "sold": true,
+        "price": "",
+        "size": "",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "56",
+        "imageCount": 2,
+        "sold": true,
+        "price": "",
+        "size": "",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "50",
+        "imageCount": 5,
+        "sold": true,
+        "price": "",
+        "size": "",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "47",
+        "imageCount": 4,
+        "sold": true,
+        "price": "28",
+        "size": "",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "48",
+        "imageCount": 3,
+        "sold": true,
+        "price": "",
+        "size": "",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "45",
+        "imageCount": 3,
+        "sold": true,
+        "price": "25",
+        "size": "",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "46",
+        "imageCount": 3,
+        "sold": true,
+        "price": "",
+        "size": "",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "44",
+        "imageCount": 3,
+        "sold": true,
+        "price": "",
+        "size": "",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "49",
+        "imageCount": 3,
+        "sold": true,
+        "price": "",
+        "size": "",
+        "title": "",
+        "description": ""
+    },
+    {
+        "folder": "43",
+        "imageCount": 3,
+        "sold": true,
+        "price": "",
+        "size": "M",
+        "title": "",
+        "description": ""
+    }
+]
