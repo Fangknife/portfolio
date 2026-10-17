@@ -53,7 +53,7 @@ sidebarTemplate.innerHTML = `
         <a href="/portfolio/index.html">The Eternal Now</a>
         <a href="/portfolio/internal_world.html">The Internal World</a>
         <a href="/portfolio/clothing.html">Textile / For Sale</a>
-        <a href="/books.html">Books</a>
+        <a href="../books.html">Books</a>
         
 `;
 
