@@ -1,5 +1,9 @@
 // https://www.freecodecamp.org/news/reusable-html-components-how-to-reuse-a-header-and-footer-on-a-website/
 
+const portfolioRoot = window.location.hostname === "fangknife.com"
+    ? "/portfolio/"
+    : "/";
+
 const sidebarTemplate = document.createElement('template');
 sidebarTemplate.innerHTML = `
     <style>
@@ -45,6 +49,9 @@ sidebarTemplate.innerHTML = `
     <h1>Vincent Wolfe</h1>
     <img src="../img/portrait.jpg" class="sidebar_img"/>
     <div class="sidebar_links">
+        <a href="${portfolioRoot}index.html">The Eternal Now LINK</a>
+
+
         <a href="/about.html">About</a>
         <a href="/contact.html">Contact</a>
         <a href="/cv.html">CV</a>
