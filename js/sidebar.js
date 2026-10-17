@@ -47,20 +47,17 @@ sidebarTemplate.innerHTML = `
     </style>
    
     <h1>Vincent Wolfe</h1>
-    <img src="../img/portrait.jpg" class="sidebar_img"/>
+    <img src="${portfolioRoot}img/portrait.jpg" class="sidebar_img"/>
     <div class="sidebar_links">
-        <a href="${portfolioRoot}index.html">The Eternal Now LINK</a>
-
-
-        <a href="/about.html">About</a>
-        <a href="/contact.html">Contact</a>
-        <a href="/cv.html">CV</a>
+        <a href="${portfolioRoot}about.html">About</a>
+        <a href="${portfolioRoot}contact.html">Contact</a>
+        <a href="${portfolioRoot}cv.html">CV</a>
         
         <span style="font-weight: bold; text-transform: uppercase;">Portfolios </span>
-        <a href="../index.html">The Eternal Now</a>
-        <a href="/internal_world.html">The Internal World</a>
-        <a href="clothing.html">Textile / For Sale</a>
-        <a href="/portfolio/books.html">Books</a>
+        <a href="${portfolioRoot}index.html">The Eternal Now</a>
+        <a href="${portfolioRoot}internal_world.html">The Internal World</a>
+        <a href="${portfolioRoot}clothing.html">Textile / For Sale</a>
+        <a href="${portfolioRoot}books.html">Books</a>
         
 `;
 
