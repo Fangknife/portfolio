@@ -44,7 +44,7 @@ function load_page() {
         }
         const flipbook_img = document.createElement("img");
         flipbook_img.classList.add("c-flipbook-image");
-        flipbook_img.src = `/img/house_inside_out/${image_list[i]}`;
+        flipbook_img.src = `${portfolioRoot}img/house_inside_out/${image_list[i]}`;
 
         flipbook_page.appendChild(flipbook_img);
         flipbook.appendChild(flipbook_page);
