@@ -49,9 +49,6 @@ sidebarTemplate.innerHTML = `
     <h1>Vincent Wolfe</h1>
     <img src="${portfolioRoot}img/portrait.jpg" class="sidebar_img"/>
     <div class="sidebar_links">
-        <a href="${portfolioRoot}about.html">About</a>
-        <a href="${portfolioRoot}contact.html">Contact</a>
-        <a href="${portfolioRoot}cv.html">CV</a>
         
         <span style="font-weight: bold; text-transform: uppercase;">Portfolios </span>
         <a href="${portfolioRoot}index.html">The Eternal Now</a>
