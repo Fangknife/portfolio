@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
     player_container.style.minWidth = player_container_min_width;
     player_container.style.aspectRatio = ratio_width/ratio_height;
-    player_container.style.backgroundColor = 'black';
     if (document.getElementById("main_img")) {
         document.getElementById("main_img").style.aspectRatio = ratio_width/ratio_height;
     }
