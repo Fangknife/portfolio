@@ -6,14 +6,18 @@
     <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="../css/master.css">
     <script src="../js/sidebar.js"></script>
-    <!-- ^^^ PROJECTS & INDEXES boiler plate ------------------ -->
+    <script src="../js/mobile_nav.js"></script>
 </head>
-<body>
+<body> 
+    
     <div class="container">
         <div class="sidebar" id="sidebar">
             <sidebar-component></sidebar-component>
         </div>
-
+        <div class="mobile_nav" id="mobile_nav">
+            <mobile-component></mobile-component>
+        </div>
+        
         <div class="main">
             <div class="page_title" id="page_title">
                 It is Almost Morning
@@ -56,13 +60,13 @@
         </div>
     </div>
     <script>
-        var debug_color = false;
         var player_container_max_width = 1200;
-        var player_container_min_width = 250;
+        var player_container_min_width = 500;
         var ratio_width = 16;
         var ratio_height = 9;
     </script>
     <script src="../js/player_container_constructor.js"></script>
+
 </body>
 </html>
 
