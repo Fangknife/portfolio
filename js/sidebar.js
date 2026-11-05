@@ -49,13 +49,12 @@ sidebarTemplate.innerHTML = `
     <h1>Vincent Wolfe</h1>
     <img src="${portfolioRoot}img/portrait.jpg" class="sidebar_img"/>
     <div class="sidebar_links">
-        
         <span style="font-weight: bold; text-transform: uppercase;">Portfolios </span>
         <a href="${portfolioRoot}index.html">The Eternal Now</a>
         <a href="${portfolioRoot}internal_world.html">The Internal World</a>
         <a href="${portfolioRoot}clothing.html">Textile / For Sale</a>
         <a href="${portfolioRoot}books.html">Books</a>
-        
+    </div>
 `;
 
 class Sidebar extends HTMLElement {

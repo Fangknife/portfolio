@@ -74,7 +74,7 @@ a.grid_img_title {
     .in_progress_popup { font-size: 28px; }
     span.avoidwrap { display:inline-block; }
 }
-@media only screen and (min-width: 900px)and (max-width: 1300px){
+@media only screen and (min-width: 900px) and (max-width: 1300px){
     .grid_img_title { font-size: 18px; }
     span.avoidwrap { display:inline-block; }
 }
@@ -83,7 +83,6 @@ a.grid_img_title {
     span.avoidwrap { display:inline; }
 }
 .index_description {
-    
     justify-content: center;
     text-align: center;
     font-size: 18px;
@@ -91,3 +90,4 @@ a.grid_img_title {
     padding-bottom: 25px;
     /* background-color: #00218d46; */
 }
+

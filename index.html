@@ -6,17 +6,20 @@
     <link rel="stylesheet" type="text/css" href="css/master.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <script src="js/sidebar.js"></script>
+    <script src="js/mobile_nav.js"></script>
 </head>
-<body>
+<body> 
     
+
     <div class="container"> <!--holding sidebar and main together...-->
-        
         <div class="sidebar" id="sidebar">
             <sidebar-component></sidebar-component>
         </div>
+    <div class="mobile_nav" id="mobile_nav">
+        <mobile-component></mobile-component>
+    </div>
         
         <div class="main">
-
             <div class="page_title">
                 The Eternal Now
             </div>
@@ -27,7 +30,6 @@
             </div>
 
             <div class="portfolio_grid">
-                
                 <div class="grid_img_container">
                     <a href="projects/long_exposure.html">
                         <img src="img/thumbnails/long_exposure.jpg" class="grid_img"/>
@@ -105,6 +107,38 @@
             </div>
         </div>
     </div>
+
+    <!-- <script> 
+        const viewportWidth = document.documentElement.clientWidth;
+        // function smallScreen() {
+        //     document.getElementById("sidebar").style.display = "none";
+            
+        // }
+           
+
+        function debounce(func, delay = 200) {
+            let timeoutId;
+            return (...args) => {
+                clearTimeout(timeoutId); // Clear the previous timeout
+                timeoutId = setTimeout(() => func.apply(this, args), delay); // Schedule the function to run after the delay
+            };
+        }
+        const debouncedHandleResize = debounce(() => { // Debounced resize handler (runs 200ms after resizing stops)
+            const viewportWidth = document.documentElement.clientWidth;
+            console.log(`Debounced Viewport Width: ${viewportWidth}px`);
+            if (viewportWidth < 500) { 
+                document.getElementById("sidebar").style.display = "none";
+                document.getElementById("mobile_nav").style.display = "flex";
+            } else {
+                document.getElementById("sidebar").style.display = "flex";
+                document.getElementById("mobile_nav").style.display = "none";
+            }
+        });
+        window.addEventListener('resize', debouncedHandleResize);
+        // https://www.xjavascript.com/blog/how-to-detect-screen-size-for-responsive-web-design/
+    </script> -->
+
+
 
 </body>
 </html>

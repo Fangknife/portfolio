@@ -125,7 +125,7 @@ function openPopup(piece) {
     // Create popup image----------------------------------------------
     const image = document.createElement("img");
     image.src = `img/clothing/${piece.folder}/00.jpg`;
-    image.alt = `Textile piece ${piece.folder}`;
+    image.alt = `Clothing piece ${piece.folder}`;
 
     // buttons ----------------------------------------------
     popupCarousel.appendChild(image);
