@@ -30,6 +30,7 @@ body {
     margin-right: 25px;
     margin-left: 0px;
     width: 100%;
+    background-color: #841a14;
 }
 .player_container {  /* for documents with a 'main header image/player' */
     justify-content: center;
@@ -100,23 +101,23 @@ figure .description_img{
     margin-bottom: 5px;
 }
 
-
+/* ---------- mobile stuff -------------- */
 .mobile_nav {
     display: none;
 }
-
 .sidebar {
     display: flex;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     .main {
-        margin-left: 25px;
+        margin-left: 20px;
         padding-top: 65px;
+        margin-right: 20px;
     }
     .sidebar {
         display: none;
     }
-        .mobile_nav {
+    .mobile_nav {
         display: flex;
     }
 }
