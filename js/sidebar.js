@@ -56,7 +56,7 @@ sidebarTemplate.innerHTML = `
         <a href="${portfolioRoot}books.html">Books</a> <br> <br>
 
         <span style="font-weight: bold; text-transform: uppercase;">
-            <a href="fangknife.com">Fangknife.com</a>
+            <a href="https://fangknife.com/">Fangknife.com</a>
         </span>
     </div>
 `;

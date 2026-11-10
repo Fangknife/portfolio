@@ -91,7 +91,7 @@ mobileTemplate.innerHTML = `
         }
 
         </style>
-        <a href="fangknife.com">
+        <a href="https://fangknife.com/">
             <img src="${portfolioRoot}img/banner2.png" class="mobile_img"/>
         </a>
 
