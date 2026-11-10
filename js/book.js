@@ -72,7 +72,7 @@ function navbar() {
     navbar = document.getElementById("navbar");
     navbar.innerHTML = `
         <div class="arrow_container">
-            <a href="#" class="arrow_left" id="arrow_left"
+            <a class="arrow_left" id="arrow_left"
                 onclick="left_arrow()"></a>
         </div>
         <div class="navtext">
@@ -84,7 +84,7 @@ function navbar() {
             <input type="text" class="page_num" id="page_num_max" readonly="true">
         </div>
         <div class="arrow_container">
-            <a href="#" class="arrow_right" id="arrow_right"
+            <a class="arrow_right" id="arrow_right"
                 onclick="right_arrow()"></a>
         </div>
     `;

@@ -19,16 +19,16 @@ sidebarTemplate.innerHTML = `
             font-size: var(--heading_text_size);
             text-align: center;
             margin-top: 15px;
-            margin-bottom: 15px;
         }
         .sidebar_img {
+            display: block;
             position: relative;
             width: 75%;
             left: 12.5%;
+            margin-top: 15px;
+            margin-bottom: 20px;
         }
         .sidebar_links {
-            white-space: pre-line;
-            margin-top: -8px;
             padding-left: 10px;
             line-height: 140%;
         }
@@ -49,14 +49,15 @@ sidebarTemplate.innerHTML = `
     <h1>Vincent Wolfe</h1>
     <img src="${portfolioRoot}img/portrait.jpg" class="sidebar_img"/>
     <div class="sidebar_links">
+        <span style="font-weight: bold; text-transform: uppercase;">Portfolios </span> <br>
+        <a href="${portfolioRoot}index.html">The Eternal Now</a> <br>
+        <a href="${portfolioRoot}internal_world.html">The Internal World</a> <br>
+        <a href="${portfolioRoot}clothing.html">Textile / For Sale</a> <br>
+        <a href="${portfolioRoot}books.html">Books</a> <br> <br>
+
         <span style="font-weight: bold; text-transform: uppercase;">
-            <a href="${portfolioRoot}index.html">About</a>
+            <a href="fangknife.com">Fangknife.com</a>
         </span>
-        <span style="font-weight: bold; text-transform: uppercase;">Portfolios </span>
-        <a href="${portfolioRoot}index.html">The Eternal Now</a>
-        <a href="${portfolioRoot}internal_world.html">The Internal World</a>
-        <a href="${portfolioRoot}clothing.html">Textile / For Sale</a>
-        <a href="${portfolioRoot}books.html">Books</a>
     </div>
 `;
 
@@ -71,3 +72,6 @@ class Sidebar extends HTMLElement {
 }
 customElements.define('sidebar-component', Sidebar);
 
+        // <span style="font-weight: bold; text-transform: uppercase;">
+        //     <a href="${portfolioRoot}index.html">About</a>
+        // </span>

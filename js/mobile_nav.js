@@ -104,7 +104,6 @@ mobileTemplate.innerHTML = `
         <header class="header">
             <nav class="dropdown-menu">
                 <ul class="menu">
-                <li> <a href="${portfolioRoot}about.html">About</a></li>
                 <li> <a href="${portfolioRoot}index.html">The Eternal Now</a></li>
                 <li> <a href="${portfolioRoot}internal_world.html">The Internal World</a></li>
                 <li> <a href="${portfolioRoot}clothing.html">Textile / For Sale</a></li>
@@ -125,3 +124,4 @@ class Mobile extends HTMLElement {
 }
 customElements.define('mobile-component', Mobile);
 
+                // <li> <a href="${portfolioRoot}about.html">About</a></li>

@@ -22,6 +22,8 @@
     padding-top: 0px;
     column-gap: 2vw;
     row-gap: 2vw;
+    width: 100%;
+    box-sizing: border-box;
 }
 .grid_img_container {
     aspect-ratio: 4 / 3;
