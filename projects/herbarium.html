@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="../css/master.css">
     <script src="../js/sidebar.js"></script>
     <script src="../js/mobile_nav.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/herbarium.css">
 </head>
 <body> 
     
@@ -24,52 +25,53 @@
             </div>
   
             <div class="main_description">
+                2024 - Ongoing.
                 <p>
-                These plants are generated as L-systems using
-                <a href="https://processing.org/">Processing</a> /
-                <a href="https://github.com/CreativeInquiry/PEmbroider">PEmbroider</a>, and are then printed as freestanding lace on a digital emboidery machine.
-                The loving 
-                <a href="https://carnegiemnh.org/research/botany-5/">descriptions that botanists write</a> about real plants inspired me to begin writing poems in the labels.
-                These are occasionally for sale, and only on pause while I look for a next step for the project.
-                <p><br>
-                <figure style="max-width: 1400px;">
-                    <img src="../img/herbarium/all.jpg" class="description_img"/>
-                </figure>
-                <br>
-                <figure style="font-size: 18px;font-weight: bold; text-transform: uppercase;">
-                    Specimine labels for the above image<br> in the same layout and easier font :</figure>
 
-                <figure style="max-width: 900px;">
-                    <img src="../img/herbarium/tag_00.jpg" class="description_img"/>
-                </figure>
-                <figure style="max-width: 900px;">
-                    <img src="../img/herbarium/tag_01.jpg" class="description_img"/>
-                </figure>
-                <figure style="max-width: 900px;">
-                    <img src="../img/herbarium/tag_02.jpg" class="description_img"/>
-                </figure>
+                I use <a href="https://processing.org/">Processing</a> to generate the plant forms as L-Systems 
+                (a system to create 3D fractals from a ruleset and a string)
+                with paramaters found in an <a href="https://algorithmicbotany.org/papers/sigcourse.2003/2-1-lsystems.pdf">Algorithmic Botany paper</a>.
+                
+                I use the <a href="https://github.com/CreativeInquiry/PEmbroider">PEmbroider library</a> 
+                to make a stitch plan for my digital embroidey machine,
+                then embroider the plant onto a dissolvable stabalizer which will leave the thread as a free standing structure.
+                Layering and improperly tensioning the thread allows me to create mossy textures.
+                    <p>
+                These are not yet modeled after specific genuses, 
+                but as I was looking for reference images the sometimes loving
+                <a href="https://carnegiemnh.org/research/botany-5/">descriptions that botanists wrote</a> 
+                about real plants inspired me to begin writing poems in the labels.
+                The embroidered cursive text borders on illegibility, 
+                so I provide transcribed labels which you can see by clicking on any image in the grid below.
+                    <p>
+                These are occasionally for sale, and only on pause while I look for a next step to develop the project.
 
                 <p><br>
-                    <figure style="font-size: 18px;font-weight: bold; text-transform: uppercase;">
-                    Specimines from the initial collection :</figure>
-                <figure style="max-width: 1200px;">
-                    <img src="../img/herbarium/initial.jpg" class="description_img"/>
-                </figure>
-
-
-
-
-
             </div>
+
+
+            <div id="image_grid"></div>
+            <div id="image_popup" class="image_popup">
+                <div class="popup_content" id="popup_content">
+                    <div id="popup_close_container" class="popup_close_container"></div>
+                    <div id="popup_carousel" class="popup_carousel"></div>
+                    <div id="popup_info" class="popup_info"></div>
+                </div>
+            </div>
+
+            <script src="../js/herbarium.js"></script>
+            <script>
+                var player_container_max_width = 1200;
+                var player_container_min_width = 500;
+                var ratio_width = 8;
+                var ratio_height = 3;
+            </script>
+            <script src="../js/player_container_constructor.js"></script>
         </div>
     </div>
-    <script>
-        var player_container_max_width = 1200;
-        var player_container_min_width = 500;
-        var ratio_width = 8;
-        var ratio_height = 3;
-    </script>
-    <script src="../js/player_container_constructor.js"></script>
+
+
+
 </body>
 </html>
 
