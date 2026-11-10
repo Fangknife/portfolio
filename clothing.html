@@ -2,31 +2,31 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vincent Wolfe | Textile Work</title>
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="css/master.css">
-    <script src="js/sidebar.js"></script>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/master.css">
+    <script src="../js/sidebar.js"></script>
+    <script src="../js/mobile_nav.js"></script>
     <link rel="stylesheet" type="text/css" href="css/clothing.css">
 </head>
 <body>
-    <div class="container"> 
-        <div class="sidebar" id="sidebar">
-            <sidebar-component></sidebar-component>
-        </div>
-        
+    <div class="container">
+        <div class="sidebar" id="sidebar"> <sidebar-component></sidebar-component> </div>
+        <div class="mobile_nav" id="mobile_nav"> <mobile-component></mobile-component> </div>
+
         <div class="main">
             <div class="page_title" id="page_title">
                 Textile Work
             </div>
 
-            <div id="clothing-grid"></div>
-
-            <div id="clothing-popup" class="clothing-popup">
-                <div class="popup-content" id="popup-content">
+            <div id="image_grid"></div>
+            <div id="image_popup" class="image_popup">
+                <div class="popup_content" id="popup_content">
                     <div id="popup_close_container" class="popup_close_container"></div>
-                    <div id="popup-carousel" class="popup-carousel"></div>
-                    <div id="popup-info" class="popup-info"></div>
+                    <div id="popup_carousel" class="popup_carousel"></div>
+                    <div id="popup_info" class="popup_info"></div>
                 </div>
             </div>
+
         </div>
     </div>
 

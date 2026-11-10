@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <!-- vvv PROJECTS & INDEXES boiler plate ------------------ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincent Wolfe | Textile Herbarium</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/master.css">
+    <script src="../js/sidebar.js"></script>
+    <script src="../js/mobile_nav.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/herbarium.css">
+</head>
+<body> 
+    
+    <div class="container">
+        <div class="sidebar" id="sidebar"> <sidebar-component></sidebar-component> </div>
+        <div class="mobile_nav" id="mobile_nav"> <mobile-component></mobile-component> </div>
+
+        <div class="main">
+            <div class="page_title" id="page_title">
+                Textile Herbarium
+            </div>
+            
+            <div class="player_container" id="player_container">
+                <img src="../img/herbarium/header.jpg" class="main_img" id="main_img"/>
+            </div>
+  
+            <div id="image_grid"></div>
+            <div id="image_popup" class="image_popup">
+                <div class="popup_content" id="popup_content">
+                    <div id="popup_close_container" class="popup_close_container"></div>
+                    <div id="popup_carousel" class="popup_carousel"></div>
+                    <div id="popup_info" class="popup_info"></div>
+                </div>
+            </div>
+
+            <script src="../js/herbarium.js"></script>
+            <script>
+                var player_container_max_width = 1200;
+                var player_container_min_width = 500;
+                var ratio_width = 8;
+                var ratio_height = 3;
+            </script>
+            <script src="../js/player_container_constructor.js"></script>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
+
+
+

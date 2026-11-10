@@ -1,9 +1,9 @@
-const grid = document.getElementById("clothing-grid");
+const grid = document.getElementById("image_grid");
 
 // Popup elements--------------------------------------------------
-const popup = document.getElementById("clothing-popup");
-const popupCarousel = document.getElementById("popup-carousel");
-const popupInfo = document.getElementById("popup-info");
+const popup = document.getElementById("image_popup");
+const popupCarousel = document.getElementById("popup_carousel");
+const popupInfo = document.getElementById("popup_info");
 const popup_close_container = document.getElementById("popup_close_container");
 
 // Current popup image--------------------------------------------------
@@ -34,7 +34,7 @@ function createCarousel(piece) {
 
     // Image container----------------------------------------------
     const imageContainer = document.createElement("div");
-    imageContainer.classList.add("image-container");
+    imageContainer.classList.add("image_container");
 
     // Image----------------------------------------------
     const image = document.createElement("img");
@@ -44,15 +44,15 @@ function createCarousel(piece) {
 
     // Availability label----------------------------------------------
     const availabilityLabel = document.createElement("div");
-    availabilityLabel.classList.add("availability-label");
+    availabilityLabel.classList.add("availability_label");
     if (piece.sold) {
         var t = document.createElement("span");
-        t.classList.add("availability-label-text");
+        t.classList.add("availability_label_text");
         t.innerText = "Sold";
         availabilityLabel.appendChild(t);
     } else {
         var t = document.createElement("span");
-        t.classList.add("availability-label-text");
+        t.classList.add("availability_label_text");
         t.innerText = "Size " + piece.size;
         availabilityLabel.appendChild(t);
         t = t.cloneNode(true);
@@ -212,10 +212,10 @@ function openPopup(piece) {
 
 
     var click_off = 1;
-    document.getElementById("popup-content").addEventListener("mouseover", () => {
+    document.getElementById("popup_content").addEventListener("mouseover", () => {
         click_off = 0;
     });
-    document.getElementById("popup-content").addEventListener("mouseout", () => {
+    document.getElementById("popup_content").addEventListener("mouseout", () => {
         click_off = 1;
     });
     popup.addEventListener("click", () => {
